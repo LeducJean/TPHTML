@@ -1,0 +1,60 @@
+.texte{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#Bandeau { 
+    background-color:rgb(0, 153, 255);
+    color:rgb(0, 0, 0);
+    width:100%;
+	height:60px;
+    padding-top: 5px;
+}
+
+#Menuhaut {
+    font-size: 50px;
+    text-align: left "Centenu";
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(48, 153, 22);
+    color:rgb(0, 0, 0);
+    width:100%;
+	height:230px;
+    padding-top: 130px;
+    width: 15%;
+}
+
+#Menubas {
+    font-size: 50px;
+    text-align: left "Centenu";
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(209, 71, 186);
+    color:rgb(0, 0, 0);
+    width:100%;
+	height:230px;
+    padding-top: 130px;
+    width: 15%;
+}
+
+#Contenu { 
+    background-color:rgb(255, 166, 0);
+    color:rgb(0, 0, 0);
+    width:100%;
+	height:390px;
+    padding-top: 330px;
+    width: 85%;
+    float: right;
+}
+
+#PiedDePage { 
+    background-color:rgb(0, 255, 98);
+    color:rgb(0, 0, 0);
+    width:100%;
+	height:60px;
+    padding-top: 5px;
+    float: left;
+}
