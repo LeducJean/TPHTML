@@ -46,19 +46,14 @@
     margin-left: 69px;
     }
 
-    .controls {
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: 1fr 2fr;
-    gap: .7rem;
-}
-
-
 </style>
 
 
 
 <body>
-    
+    <form>
+    <div>
+
     <fieldset>
         <legend></legend>
     
@@ -66,10 +61,10 @@
 
             <label>Civilité :</label>
 
-            <label for="civilite" class="controls">Mr</label>
+            <label for="civilite">Mr</label>
           <input type="radio">
 
-          <label for="Mme ou Mlle" class="controls">Mme ou Mlle</label>
+          <label for="Mme ou Mlle">Mme ou Mlle</label>
           <input type="radio">
 
         </div>
@@ -78,7 +73,7 @@
         <div>
 
             <label>Nom :</label>
-            <input type="text" name="nom" valeur="10" class="controls">
+            <input type="text" name="nom" valeur="10">
 
         </div>
 
@@ -86,7 +81,7 @@
         <div>
 
             <label>Prénom :</label>
-            <input type="text" name="prenom" valeur="10" class="controls">
+            <input type="text" name="prenom" valeur="10">
             
         </div>
 
@@ -94,7 +89,7 @@
 <div>
             <label for="Date de naissance">Date de naissance :</label>
 
-<select class="controls">
+<select>
     <option value="1">1</option>
     <option value="2">2</option>
     <option value="3">3</option>
@@ -128,7 +123,7 @@
     <option value="31">31</option>
 </select>
 
-<select class="controls">
+<select>
     <option value="1">1</option>
     <option value="2">2</option>
     <option value="3">3</option>
@@ -145,15 +140,15 @@
 
     Année :
 
-    <input class="controls">
+    <input>
 </test>
 </div>
 
 <p>
     <label name="numero">Numéro</label>
-    <input class="controls">
+    <input>
     <label>Rue</label>
-    <input class="controls">
+    <input>
 </p>
 
 <p>
@@ -162,25 +157,27 @@
 
 <p>
     <label name="numero">Code Postal</label>
-    <input class="controls">
+    <input>
     <label>Ville</label>
-    <input class="controls">
+    <input>
 </p>
 
 <p>
     <label>Téléphone :</label>
-            <input type="text" name="telephone" valeur="10" class="controls">
+            <input type="text" name="telephone" valeur="10">
 </p>
 
 <p>
     <label>E-mail :</label>
-            <input type="text" name="mail" valeur="10" class="controls">
+            <input type="text" name="mail" valeur="10">
 </p>
 
 <p>
+    
     <input type="submit" value="Envoyer">
     <input type="reset" value="Remise à zéro">
 </p>
+</form>
 
 
 </body>
